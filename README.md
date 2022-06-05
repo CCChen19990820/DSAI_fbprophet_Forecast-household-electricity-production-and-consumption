@@ -10,6 +10,8 @@
 本組總共採用三種方法做預測，分別使用了fbprophet模型、LSTM模型、以及7天均值三種方法，方法敘述如下列:
 
 ### 1.fbprophet
-使用prophet分別對comsumption.csv以及generation.csv中的time轉換為ds，要預測的電量單位轉換為y，以餵入模型進行分析，並預測未來24個小時的(產/用)電量，預測的結果如下圖
+使用prophet分別對comsumption.csv以及generation.csv中的time轉換為ds，要預測的電量單位轉換為y，以餵入模型進行分析，並預測未來24個小時的(產/用)電量，預測的結果如下圖，圖一為用電量預測，圖二為產電量預測。
 ![con](https://user-images.githubusercontent.com/48405514/172047287-d761dd3a-9229-4e1b-a40c-586c5c37e64b.png)
+(圖一)
 ![gen](https://user-images.githubusercontent.com/48405514/172047288-afb51ca0-27ea-452f-a7d4-d1feaac23972.png)
+(圖二)
